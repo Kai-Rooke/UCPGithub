@@ -22,250 +22,257 @@
 
 <body>
 
-    <div class="d-flex" id="wrapper">
-        <div class="container-fluid">
-
-            <div class="bg-light border-right vh-100" id="sidebar-wrapper">
-                <div class="sidebar-heading">
-                    <div class="media d-flex align-items-center">
-                        <img src="ucp-logo.png" alt="..." width="230">
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bg-light border-right vh-100" id="sidebar-wrapper">
+                    <div class="sidebar-heading">
+                        <div class="media d-flex align-items-center">
+                            <img src="ucp-logo.png" alt="..." width="230">
+                        </div>
                     </div>
 
-                    <div id="page-content-wrapper">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 d-flex">
-                                    <button type="button" class="btn btn-info ml-auto">Student Login</button>
-                                    <button type="button" class="btn btn-info">Staff Login</button
-                        <form class="form-inline mt-2 mt-md-0">
-                            <input class="form-control col-md-2 mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                    </form>
+                    <div class="list-group list-group-flush overflow-auto h-100">
+
+                        <div class="accordion" id="WelcomeAccordion">
+                            <div class="card">
+                                <div class="card-header" id="aboutUCP">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#aboutCollapse" aria-expanded="true" aria-controls="aboutCollapse">About UCP</button>
+                                    </h5>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="list-group list-group-flush overflow-auto h-100">
 
-                            <div class="accordion" id="WelcomeAccordion">
-                                <div class="card">
-                                    <div class="card-header" id="aboutUCP">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#aboutCollapse" aria-expanded="true" aria-controls="aboutCollapse">About UCP</button>
-                                        </h5>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="About.html">About Us</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="#">Inspire Education Group</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="#">Governance</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="#">Children's University</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="#">Key Dates</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
-                                        <div class="card-body">
-                                            <a href="#">Job Opportunities</a>
-                                        </div>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="About.html">About Us</a>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion" id="CoursesAccordion">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coursesCollapse" aria-expanded="true" aria-controls="coursesCollapse">
-                    UCP Courses
-                  </button>
-                                        </h5>
-                                    </div>
-
-                                    <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#CoursesAccordion">
-                                        <div class="card-body">
-                                            <a href="#">A-Z Courses</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <a href="#">How to Apply</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <a href="#">Fees</a>
-                                        </div>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="#">Inspire Education Group</a>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion" id="FeesAccordion">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#feesCollapse" aria-expanded="true" aria-controls="coursesCollapse">
-                    Fees
-                  </button>
-                                        </h5>
-                                    </div>
-
-                                    <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Fees and Finances</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Bursaries</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
-                                        <div class="card-body">
-                                            <a href="#">EU and EEA Students</a>
-                                        </div>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="#">Governance</a>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion" id="SupportAccordion">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#supportCollapse" aria-expanded="true" aria-controls="coursesCollapse">
-                    Support and Policies
-                  </button>
-                                        </h5>
-                                    </div>
-
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Support Overview for Students</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Academic Support</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Welfare Support</a>
-                                        </div>
-                                    </div>
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Financial Support</a>
-                                        </div>
-                                    </div>
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Changing of Circumstancs</a>
-                                        </div>
-                                    </div>
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Important Documents and Policies</a>
-                                        </div>
-                                    </div>
-                                    <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Additional Circumstantial Support</a>
-                                        </div>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="#">Children's University</a>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion" id="EmpHubAccordion">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#empCollapse" aria-expanded="true" aria-controls="coursesCollapse">
-                    Employer Hub
-                  </button>
-                                        </h5>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="#">Key Dates</a>
                                     </div>
+                                </div>
 
-                                    <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
-                                        <div class="card-body">
-                                            <a href="#">About Employer Hub</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Workplace and Employment Opportunities</a>
-                                        </div>
-                                    </div>
-
-                                    <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Getting You Ready for Career</a>
-                                        </div>
-                                    </div>
-                                    <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Raising Your Profile</a>
-                                        </div>
-                                    </div>
-                                    <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
-                                        <div class="card-body">
-                                            <a href="#">Support for Businesses</a>
-                                        </div>
+                                <div id="aboutCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#aboutCollapse">
+                                    <div class="card-body">
+                                        <a href="#">Job Opportunities</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="accordion" id="CoursesAccordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coursesCollapse" aria-expanded="true" aria-controls="coursesCollapse">
+                                        UCP Courses
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#CoursesAccordion">
+                                    <div class="card-body">
+                                        <a href="#">A-Z Courses</a>
+                                    </div>
+                                </div>
+
+                                <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a href="#">How to Apply</a>
+                                    </div>
+                                </div>
+
+                                <div id="coursesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <a href="#">Fees</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="FeesAccordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#feesCollapse" aria-expanded="true" aria-controls="coursesCollapse">
+                                        Fees
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Fees and Finances</a>
+                                    </div>
+                                </div>
+
+                                <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Bursaries</a>
+                                    </div>
+                                </div>
+
+                                <div id="feesCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#FeesAccordion">
+                                    <div class="card-body">
+                                        <a href="#">EU and EEA Students</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="SupportAccordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#supportCollapse" aria-expanded="true" aria-controls="coursesCollapse">
+                                        Support and Policies
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Support Overview for Students</a>
+                                    </div>
+                                </div>
+
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Academic Support</a>
+                                    </div>
+                                </div>
+
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Welfare Support</a>
+                                    </div>
+                                </div>
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Financial Support</a>
+                                    </div>
+                                </div>
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Changing of Circumstancs</a>
+                                    </div>
+                                </div>
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Important Documents and Policies</a>
+                                    </div>
+                                </div>
+                                <div id="supportCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#SupportAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Additional Circumstantial Support</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="EmpHubAccordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#empCollapse" aria-expanded="true" aria-controls="coursesCollapse">
+                                        Employer Hub
+                                    </button>
+                                    </h5>
+                                </div>
+
+                                <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
+                                    <div class="card-body">
+                                        <a href="#">About Employer Hub</a>
+                                    </div>
+                                </div>
+
+                                <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Workplace and Employment Opportunities</a>
+                                    </div>
+                                </div>
+
+                                <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Getting You Ready for Career</a>
+                                    </div>
+                                </div>
+                                <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Raising Your Profile</a>
+                                    </div>
+                                </div>
+                                <div id="empCollapse" class="panel-collapse collapse in" aria-labelledby="headingOne" data-parent="#EmpHubAccordion">
+                                    <div class="card-body">
+                                        <a href="#">Support for Businesses</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <br>
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="page-content-wrapper">
                     <div class="container">
                         <div class="row">
-                            <h1>While you are studying with us we aim to support your development and assist you in achieving your career ambitions.</h1>
-                        </div>
-                        <div class="row">
-                            <p>We very much care about you as individuals and one of our key objectives is to ensure we listen to your views and continuously develop our provision so that your needs are met.</p>
-                            <p>The University Centre offers a broad portfolio of courses covering a range of subject areas and we are rapidly developing specialisms in a number of key areas.</p>
-                            Since opening our purpose built £10 million campus in the heart of Peterborough, we have grown our portfolio of courses to reflect the needs of students and local, national and international employers. This has led to genuine employment opportunities
-                            for our graduates in their chosen career path as well as opportunities to build academic skills necessary for post-graduate study. University Centre Peterborough (UCP) was established in 2007 and was a joint venture between
-                            Anglia Ruskin University (ARU) and Peterborough College. We have now become an approved partner of ARU and a wholly owned subsidiary of the Inspire Education Group from 1st August 2020. ARU accredits our undergraduate degree
-                            courses at the Peterborough campus. Higher National provision accredited by Pearson is delivered at both the Peterborough and Stamford campuses. UCP at Stamford also has a range of teaching and education courses accredited
-                            by Bishop Grosseteste University.</p>
-                            <p>As a relatively new institution, we have been able to create a learning environment which is different to other universities, and our strength comes from our smaller size, which enables us to put you at the heart of everything
-                                we do. When you study with us, we will support your development and help you in achieving your career and personal ambitions.</p>
+                            <div class="col-sm-12 d-flex">
+                                <button type="button" class="btn btn-info ml-auto">Student Login</button>
+                                <button type="button" class="btn btn-info">Staff Login</button <form
+                                    class="form-inline mt-2 mt-md-0">
+                                <input class="form-control col-md-2 mr-sm-2" type="text" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <br>
+                <div class="container">
+                    <div class="row">
+                        <h1>While you are studying with us we aim to support your development and assist you in achieving your career ambitions.</h1>
+                        <p>We very much care about you as individuals and one of our key objectives is to ensure we listen to your views and continuously develop our provision so that your needs are met.</p>
+                        <p>The University Centre offers a broad portfolio of courses covering a range of subject areas and we are rapidly developing specialisms in a number of key areas.</p>
+                        <h2>Our portfolio is constantly being revised and updated to take account of the emerging needs and aspirations of local, national and international markets.</h2>
+                        <p>Since opening our purpose built £10 million campus in the heart of Peterborough, we have grown our portfolio of courses to reflect the needs of students and local, national and international employers. This has led to genuine employment
+                            opportunities for our graduates in their chosen career path as well as opportunities to build academic skills necessary for post-graduate study. </p>
+                        <p>University Centre Peterborough (UCP) was established in 2007 and was a joint venture between Anglia Ruskin University (ARU) and Peterborough College. We have now become an approved partner of ARU and a wholly owned subsidiary of
+                            the Inspire Education Group from 1st August 2020. ARU accredits our undergraduate degree courses at the Peterborough campus. Higher National provision accredited by Pearson is delivered at both the Peterborough and Stamford
+                            campuses. UCP at Stamford also has a range of teaching and education courses accredited by Bishop Grosseteste University.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
