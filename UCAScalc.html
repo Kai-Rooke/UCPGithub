@@ -266,15 +266,44 @@
                         <h1>Welcome to the UCAS Calculator!</h1>
                     </div>
                     <div class="row">
-                        <label for="qualification">Pick a Qualification</label>
+                        <label for="qualification">Pick a Qualification:</label>&nbsp;&nbsp;&nbsp;
 
                         <select name="qualification" id="qualification">
-                        <option value="A-Level">Volvo</option>
-                        <option value="">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
+                        <option value="A-Level">A-Level</option>
+                        <option value="A-Level Double">A-Level Double</option>
+                        <option value="AS">AS</option>
+                        <option value="AS Double">AS Double</option>
                         </select>
                     </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <label for="qualification">Pick a Qualification:</label>&nbsp;&nbsp;&nbsp;
+
+                        <select name="qualification" id="qualification">
+                        <option value="A-Level">A-Level</option>
+                        <option value="A-Level Double">A-Level Double</option>
+                        <option value="AS">AS</option>
+                        <option value="AS Double">AS Double</option>
+                        </select>
+                    </div>
+
+                    <article class="row">
+                        <select (change)="selectChangeHandler($event)">
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                        </select>
+                        <p><span>You selected: </span><b>{{selectedDay}}</b></p>
+                    </article>
                 </div>
             </div>
         </div>
