@@ -2,6 +2,33 @@ body {
     overflow-x: hidden;
 }
 
+.btn-default {
+    background-color: #F08575;
+    color: #FFF;
+    border-color: #31347B;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    background-color: #2F3E48;
+    color: #FFF;
+    border-color: #31347B;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+
+.bg-default {
+    background-color: #B2DDDF;
+}
+
 #sidebar-wrapper {
     min-height: 100vh;
     margin-left: -15rem;
